@@ -1,6 +1,5 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
@@ -19,13 +18,13 @@ function generatePassword() {
 
 
 //To make sure they stay in the parameters, we need a loop
-  if (chooseLength < 8 || > 128) {
+  if (chooseLength < 8 || chooseLength > 128) {
     alert ("Password length must be between 8 and 128 characters. Please try again");
     var chooseLength = (prompt("How many characters would you like your password to contain?"));
 }
 
 //Confirm the numbers of characters the user has chosen
-    alert("Your password will have "document.getElementById(chooseLength)" characters");
+alert(`Your password will have ${chooseLength} characters`);
 
 //Choose what parameters to be included in the users password 
 var chooseNumber = confirm("Would you like a number? Click OK to confirm if you would like to include numberical characters in your password");
@@ -78,8 +77,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
   
   passwordText.value = password;
-
-
 
 }
 
