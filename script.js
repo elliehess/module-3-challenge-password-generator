@@ -22,7 +22,13 @@ if (chooseLength < 8 || > 128) {
 }
 
 //Confirm the numbers of characters the user has chosen
-alert("Your password will have "document.getElementById(chooseLength)" characters")
+alert("Your password will have "document.getElementById(chooseLength)" characters");
+
+//Choose what parameters to be included in the users password 
+var chooseNumber = confirm("Would you like a number? Click OK to confirm if you would like to include numberical characters in your password");
+var chooseSpecialChar = confirm("Would you like to make it extra special? Click OK to confirm if you would like to include special characters in your password");
+var chooseUppercase = confirm("What about lowercase? Click OK to confirm if you would like to include lowercase characters in your password");
+var chooseLowercase = confirm("How do you feel about uppercase? Click OK to confirm if you would like to include uppercase characters in your password");
 
 // Write password to the #password input
 function writePassword() {
