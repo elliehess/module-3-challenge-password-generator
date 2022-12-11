@@ -6,7 +6,8 @@ This is a password generator that will randomly generate a password that meets c
 
 ## Visuals
 
-![elliehess github io_module-3-challenge-password-generator_](https://user-images.githubusercontent.com/118075347/206929039-4ad7c624-46e3-4a2d-b276-2acec631afff.png)
+![_Users_ellie_Desktop_bootcamp_challenges_module-3-challenge-password-generator_index html](https://user-images.githubusercontent.com/118075347/206929410-12fcd1c2-7978-4d18-9aa5-1295e1ef015e.png)
+
 
 [Click here for Webpage](https://elliehess.github.io/module-3-challenge-password-generator/)
 
